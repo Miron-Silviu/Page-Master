@@ -13,8 +13,18 @@
 
   --Gray: hsl(0, 0%, 59%);
   --Very-Dark-Blue: hsl(209, 33%, 12%);
+  --Gray-light: hsl(0, 24%, 96%);
 
   /* Font Family */
 
   --font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+  background-color: var(--Gray-light);
+  font-family: var(--font-family);
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
 }
