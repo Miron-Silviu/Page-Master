@@ -34,4 +34,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin: 2rem 1rem;
+}
+.title {
+  font-weight: 600;
+}
+.info {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--Gray);
 }
