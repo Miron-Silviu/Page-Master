@@ -45,3 +45,7 @@ body {
   font-weight: 500;
   color: var(--Gray);
 }
+
+.importance {
+  color: var(--Very-Dark-Blue);
+}
