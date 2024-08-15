@@ -41,11 +41,23 @@ body {
   font-weight: 600;
 }
 .info {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: var(--Gray);
 }
 
 .importance {
   color: var(--Very-Dark-Blue);
+}
+
+.info-subscribe {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 3rem 0;
+}
+
+.form-info {
+  max-width: 100vw;
+  font-size: 1.4rem;
+  margin: 0 0 1rem 0;
 }
