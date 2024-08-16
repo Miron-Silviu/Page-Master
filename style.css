@@ -1,4 +1,4 @@
-@import 'normalize.css';
+@import url('normailze.css');
 
 :root {
   /* Colors */
@@ -84,4 +84,18 @@ body {
   color: white;
   padding: 1rem;
   font-size: 1rem;
+}
+
+/* main */
+
+.main-container {
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-img {
+  max-width: 100vw;
+  margin-left: 1rem;
 }
