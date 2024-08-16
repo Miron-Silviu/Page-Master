@@ -9,10 +9,7 @@
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
-- [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,16 +24,28 @@ Users should be able to:
   - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
-### Screenshot
+## Screenshot
 
-### Links
+## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[LIVE:DEMO](https://miron-silviu.github.io/Page-Master/)
 
 ## My process
 
-### Built with
+## First Step
+
+I created index.html file and I defined all elements
+
+## Second Step
+
+I Crated normalize.css and style.css files, I linked it to index.html.
+In style.css I created @ import rule to import normalize.css . Inside :root pseudo-clss I defined variables for different types of colors and font-family
+
+## Third Step
+
+I the third step I started to style all elements from index.html, according with the design .
+
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
