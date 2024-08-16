@@ -29,6 +29,8 @@ body {
   max-height: 100vh;
 }
 
+/* Header elements */
+
 .head-info-container {
   display: flex;
   flex-direction: column;
@@ -63,6 +65,23 @@ body {
 }
 
 .email-input {
-  padding: 0.7rem;
+  padding: 0.7rem 1.3rem 0.7rem 1.3rem;
   border-radius: 50px;
+  border: 1px solid var(--Gray);
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: var(--Gray);
+}
+
+.notification-button {
+  width: 270px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--Blue);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
 }
