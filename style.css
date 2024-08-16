@@ -63,6 +63,12 @@ body {
 }
 
 .email-input {
-  padding: 0.7rem;
+  padding: 0.7rem 1.3rem 0.7rem 1.3rem;
   border-radius: 50px;
+  border: 1px solid var(--Gray);
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: var(--Gray);
 }
