@@ -99,3 +99,18 @@ body {
   max-width: 100vw;
   margin-left: 1rem;
 }
+
+/* footer */
+
+.footer-container {
+  max-width: 100vw;
+}
+
+.social-media-contaner {
+  display: flex;
+  background-color: red;
+}
+
+.facebook {
+  width: 30px;
+}
