@@ -108,9 +108,8 @@ body {
 
 .social-media-contaner {
   display: flex;
-  background-color: red;
 }
 
 .facebook {
-  width: 30px;
+  max-width: 1rem;
 }
