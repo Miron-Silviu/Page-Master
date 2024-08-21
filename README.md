@@ -2,7 +2,6 @@
 
 ## Table of contents
 
-- [Overview](#overview)
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
@@ -10,8 +9,6 @@
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Author](#author)
-
-## Overview
 
 ## The challenge
 
@@ -25,6 +22,8 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
 ## Screenshot
+
+[Desktop image](image.png)
 
 ## Links
 
@@ -56,7 +55,7 @@ I the third step I started to style all elements from index.html, according with
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
+## What I learned
 
 To see how you can add code snippets, see below:
 
@@ -66,7 +65,15 @@ To see how you can add code snippets, see below:
 
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  .facebook,
+  .x,
+  .instagram {
+    min-width: 1rem;
+    min-height: 1rem;
+    border: 1px solid var(--Gray);
+    border-radius: 100%;
+    padding: 0.6rem;
+  }
 }
 ```
 
@@ -82,10 +89,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 - [Example resource 1](https://fontawesome.com/) - This helped me to download the social media icons
 
-*
-
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/home)
+- Twitter - [@yourusername](https://x.com/silviuumiron)
