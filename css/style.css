@@ -39,6 +39,9 @@ body {
 
   margin: 2rem 1rem;
 }
+.info-container {
+  text-align: center;
+}
 .title {
   font-weight: 600;
 }
@@ -146,14 +149,24 @@ a {
 @media screen and (min-width: 600px) {
   .head-info-container {
     display: flex;
-    background-color: red;
     max-width: 100vw;
   }
-  .form-info {
-    display: flex;
-    background-color: blue;
-  }
+
   .notification-button {
     width: 170px;
+  }
+  .form-btn-container {
+    display: flex;
+    gap: 20px;
+  }
+  .notification-button {
+    margin-bottom: 1rem;
+  }
+  .info-container {
+    max-width: auto;
+    text-align: center;
+  }
+  .info {
+    font-size: 2.5rem;
   }
 }
