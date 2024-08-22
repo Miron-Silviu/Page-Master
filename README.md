@@ -23,7 +23,7 @@ Users should be able to:
 
 ## Screenshot
 
-[Desktop image](image.png)
+![Desktop image](image.png)
 
 ![Lighthouse Report ](image-1.png)
 
