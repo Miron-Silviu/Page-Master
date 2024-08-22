@@ -25,6 +25,8 @@ Users should be able to:
 
 [Desktop image](image.png)
 
+![Lighthouse Report ](image-1.png)
+
 ## Links
 
 [LIVE:DEMO](https://miron-silviu.github.io/Page-Master/)
