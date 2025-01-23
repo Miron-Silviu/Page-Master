@@ -8,24 +8,19 @@ const emailInput = document.querySelector('.email-input');
 const buttonNotfication = document.querySelector('.notification-button');
 
 buttonNotfication.addEventListener('click', function () {
-  const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$/i;
+  const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
 
   // Check for input value
-  if (emailInput.value === '') {
-    alert(`Whoops! It looks like you forgot to add your email`);
-  } else {
-    alert(`Please provide a valid email address`);
-  }
-
-  // Validate email
   function validateEmail(email) {
     emailPattern;
     return emailPattern.test(email);
   }
 
-  if (validateEmail(emailInput.value)) {
-    alert(`Email is valid `);
-  } else {
+  if (emailInput.value.trim() === '') {
+    alert(`Whoops! It looks like you forget to add your email`);
+  } else if (!validateEmail(emailInput.value)) {
     alert(`Please provide a valid email address`);
+  } else {
+    alert(`Your email addres is correct`);
   }
 });
