@@ -2,16 +2,18 @@
 
 ## Table of contents
 
+- [Links](#links)
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
-- [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Author](#author)
 
-## The challenge
+## Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/Page-Master/)
 
+## The challenge
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
@@ -27,9 +29,6 @@ Users should be able to:
 
 ![Lighthouse Report ](image-1.png)
 
-## Links
-
-[LIVE:DEMO](https://miron-silviu.github.io/Page-Master/)
 
 ## My process
 
